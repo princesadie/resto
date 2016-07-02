@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Restaurant.create(name: 'Test', cuisine: 'American', address: '123 W New River Rd', city: 'Carol Stream', state: 'IL', zip: 85379);
+
+50.times do
+	Restaurant.create(name: Faker::Hipster.sentences(3))
+end

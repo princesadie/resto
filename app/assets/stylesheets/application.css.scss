@@ -15,4 +15,7 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
- @import "layout/_main"
+
+ // Layout
+ @import "layout/_main";
+ @import "layout/_resto-nav";
