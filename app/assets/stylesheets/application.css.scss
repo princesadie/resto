@@ -16,6 +16,9 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+ // Variables
+ @import "variables/_colors";
+
  // Layout
  @import "layout/_main";
- @import "layout/_resto-nav";
+ @import "layout/_nav";

@@ -1,5 +1,3 @@
 class StartupController < ApplicationController
-  def index
-  	@restaurants = Restaurant.all
-  end
+  def index; end
 end

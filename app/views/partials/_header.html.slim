@@ -1,7 +1,7 @@
-nav.navbar.navbar-inverse.navbar-static-top.main-nav
+nav.navbar.navbar-inverse.navbar-fixed-top.main-nav
   .container
     .navbar-header
-      span test
+      img.logo src=image_path("logo-white.png") width=100
       button.navbar-toggle data={target: "#navbar", toggle: "collapse", type: "button"}
         span.sr-only Toggle navigation
         span.icon-bar
@@ -10,13 +10,13 @@ nav.navbar.navbar-inverse.navbar-static-top.main-nav
     .collapse.navbar-collapse#navbar
       ul.nav.navbar-nav
         li
-        	a href="#"
+        	a href="/"
         		| Home
         li
         	a href="#"
         		| About
         li
-        	a href="#" 
+        	a href="/restaurants" 
         		| Restaurants
         li
         	a href="#"
@@ -24,4 +24,4 @@ nav.navbar.navbar-inverse.navbar-static-top.main-nav
       
       ul.nav.navbar-nav.navbar-right.visible-lg-inline.visible-md-inline  
         li
-          a test
+          a USER

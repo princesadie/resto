@@ -1,0 +1,15 @@
+.resto-button {
+	border-radius: 0 !important;
+	border: none !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.2s linear;
+}
+
+.resto-button:focus {
+	outline: none !important;
+}
+
+.resto-button:hover {
+	box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 10px 12px rgba(0,0,0,0.30);
+	transition: all 0.2s linear;
+}

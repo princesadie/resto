@@ -1,0 +1,16 @@
+.container.main.dark-inner
+	h1 Restaurants
+	br
+	br
+	-@restaurants.reverse.each do |restaurant|
+		.card.clear
+			.card-img
+				img src="#{restaurant.img_url}"
+			h1
+				=restaurant.name
+			p
+				| cuisine: 
+				=restaurant.cuisine
+	br
+	br
+	br

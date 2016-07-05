@@ -6,6 +6,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.string :address
       t.string :city
       t.string :state
+      t.string :img_url
       t.integer :zip
 
       t.timestamps null: false

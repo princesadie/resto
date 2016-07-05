@@ -1,3 +1,43 @@
 .main {
-	margin-top: 100px;
+	margin-top: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.main h1, h1 {
+	color: #ffffff;
+}
+
+.main p, p {
+	color: #ffffff;
+}
+
+.jumbotron {
+	background: url("http://www.topmattressreviews.net/data/wallpapers/3/restaurant_703523.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 800px;
+	margin-bottom: 0;
+}
+
+.dark-div {
+	background-color: #33343D;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+}
+
+.clear {
+	clear: both;
+}
+
+.block {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.dark-inner h1, p {
+	color: #9d9d9d;
 }
