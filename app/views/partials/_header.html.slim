@@ -11,17 +11,24 @@ nav.navbar.navbar-inverse.navbar-fixed-top.main-nav
       ul.nav.navbar-nav
         li
         	a href="/"
-        		| Home
+        		| HOME
         li
         	a href="#"
-        		| About
+        		| ABOUT
         li
         	a href="/restaurants" 
-        		| Restaurants
+        		| RESTAURANTS
         li
         	a href="#"
-        		| Stuff
-      
-      ul.nav.navbar-nav.navbar-right.visible-lg-inline.visible-md-inline  
-        li
-          a USER
+        		| STUFF
+      ul.nav.navbar-nav.navbar-right.visible-lg-inline.visible-md-inline
+        - if user_signed_in?
+          li
+            = link_to current_user.email.upcase, edit_user_registration_path
+          li
+            = link_to "SIGN OUT", destroy_user_session_path, :method => :delete
+        - else
+          li
+            = link_to "SIGN IN", new_user_session_path
+          li
+            = link_to "SIGN UP", new_user_registration_path
