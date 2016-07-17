@@ -7,6 +7,8 @@ one:
   city: MyString
   state: MyString
   zip: 1
+  img_url: MyString
+  string: MyString
 
 two:
   name: MyString
@@ -15,3 +17,5 @@ two:
   city: MyString
   state: MyString
   zip: 1
+  img_url: MyString
+  string: MyString

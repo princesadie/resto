@@ -22059,3 +22059,9 @@ Processing by StartupController#index as HTML
   Rendered partials/_header.html.slim (0.6ms)
 Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
   [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRestaurants (20160717082204)
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (9.9ms)[0m  [1mCREATE TABLE "restaurants" ("id" serial primary key, "name" character varying, "cuisine" character varying, "address" character varying, "city" character varying, "state" character varying, "zip" integer, "img_url" character varying, "string" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
